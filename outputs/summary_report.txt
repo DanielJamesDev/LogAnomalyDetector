@@ -1,0 +1,26 @@
+SYSTEM LOG ANALYSIS REPORT
+===========================
+
+Event Counts:
+  INFO: 342
+  WARNING: 112
+  ERROR: 46
+
+Detected Anomalies:
+  - High error volume detected (46 errors)
+  - Warning rate elevated (112 warnings)
+
+Top Modules Generating Errors:
+  - UI (8 errors)
+  - Scheduler (11 errors)
+  - Network (6 errors)
+  - DB (12 errors)
+  - Auth (9 errors)
+
+Hourly Event Trend:
+  Hour 13: INFO=39, WARNING=17, ERROR=12
+  Hour 14: INFO=60, WARNING=18, ERROR=8
+  Hour 15: INFO=70, WARNING=23, ERROR=6
+  Hour 16: INFO=86, WARNING=18, ERROR=7
+  Hour 17: INFO=71, WARNING=24, ERROR=8
+  Hour 18: INFO=16, WARNING=12, ERROR=5
